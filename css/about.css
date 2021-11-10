@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-image: url('../images/mahabaleshwar.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width:1100px ;
+    margin:0 auto ;
+    padding: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0, 0.45),rgba(0,0,0, 0.85)),url('../images/mahabaleshwar.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-bottom: 1rem;
+}
+
+h3{
+    color:aquamarine;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.image img{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width:250px;
+    height: 250px;
+    border: 2px solid whitesmoke;
+    border-radius: 150px;
+}
+
+p{
+    font-size: 16px;
+    color: white;
+    line-height: 1.4rem;
+    margin: 2rem 4rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #77D970;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: background 0.5s;
+    margin-bottom: 1rem;
+}
+
+.btn:hover{
+    background: white;
+    color: #77D970;
+}
